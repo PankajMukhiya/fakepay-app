@@ -1,0 +1,91 @@
+/* FONT_FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap");
+
+/* FONT FAMILY_NAME */
+/* 
+font-family: 'BioRhyme', serif;
+font-family: 'Roboto Mono', monospace; 
+font-family: 'Baloo Bhaijaan 2', cursive;
+font-family: 'Cinzel Decorative', cursive;
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+button {
+  font-family: "Roboto Mono", monospace;
+}
+
+/* COMPONENT:  NAVBAR_SECTION */
+#navbarSection {
+  font-family: "BioRhyme", serif;
+  background-color: #dfdfdf;
+  z-index: 0.2;
+}
+.nav-link:hover {
+  text-shadow: 0 0.3rem 1rem rgb(133, 135, 139);
+}
+
+/* COMPONENT:  HEADER_SECTION */
+#headerSection {
+  width: 100%;
+  height: 100vh;
+  background: #ada996;
+  background: linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #ada996);
+  background: linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #ada996);
+}
+#headerH1,
+#headerH3 , h1, h3 ,h2  {
+  font-family: "Cinzel Decorative", cursive;
+}
+
+#headerP , p {
+  font-family: "Roboto Mono", monospace;
+}
+#headerImg1,
+#headerImg2 {
+  border-radius: 1rem;
+}
+
+/* COMPONENT:  HOWTDOWNLOAD_SECTION */
+#downloadSection{
+  /* width:80vw; */
+  margin-top: -10rem;
+}
+#howsworksectionh5 , h5{
+  font-family: "BioRhyme", serif;
+}
+#howsworksectionP{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+
+/* COMPONENT:  HOWTDOWNLOAD_SECTION */
+
+#workP{
+  
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
+#workH2, #about1stPartH1 , #serviceH4{
+  
+  font-family: "BioRhyme", serif; 
+}
+
+  /* COMPONENT:  SERVICES_SECTION */
+  #serviceCard:hover{
+    background: rgba(206, 255, 206, 0.699);
+  }
+  /* COMPONENT:  FOOTER_SECTION */
+  /* .footerUlLiA:hover{
+    color: rgb(0, 0, 0);
+  } */
+
+
+
